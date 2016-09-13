@@ -40,11 +40,6 @@ There are three directories in the source:
 3. `src/common` - This contains all code that is shared by both client and server. Including files such as typescript definitions. NodeJS processes dependencies on its own via support for `require()`, so any `src/server` code that depends on common code will do so automatically. `src/client` code will scoop up common code via the same mechanism, but employed by Browserify.
 4. `src/vendor` - This contains all JS source that is not available via NPM.
 
-Unit Testing
-------------
-
-Unit testing is done with NodeUnit and is available immediately by running `npm run-script test`. Tests should reside in static TypeScript classes as per NodeUnit standards such that each static function is one unit test. Test files are automatically recognized if they end with the postfix `-test.ts`.
-
 Vendors
 -------
 
