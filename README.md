@@ -1,8 +1,3 @@
-Description
------------
-
-This is minimum boilerplate code for my TypeScript projects. It is targeted toward complex object-oriented applications in the browser or phone via PhoneGap, where TypeScript maintainability is important.
-
 Set Up
 ------
 Run the following from the root directory:
