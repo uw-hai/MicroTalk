@@ -91,3 +91,7 @@ tramp
 /auto/
 
 *.out
+
+.DS_Store
+
+__init__.py
